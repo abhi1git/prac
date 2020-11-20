@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-1-docs"
+  description: "test-1-docs"
+  annotations:
+    github.com/project-slug: "abhi1git/prac"
+    backstage.io/techdocs-ref: github:https://github.com/abhi1git/prac
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "abhi"
